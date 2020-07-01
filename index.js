@@ -1,12 +1,13 @@
 /**
- * Find arithmetic mean. Task 13
- * @type {number[]}
+ * Finding factorial. Task 14
+ * @type {number}
  */
-let numbers = [12, 15, 20, 25, 59, 79];
-let sum = 0;
-let average = 0;
-for (let i = 0; i < numbers.length; i++) {
-    sum += numbers[i];
-    average = sum / (numbers.length);
+let userInput = Number(prompt('inpur your value'));
+let count = userInput;
+let result;
+for (let i = userInput; i > 1; i--) {
+    --count;
+    userInput = userInput * count;
+    result = userInput;
 }
-alert(average);
+alert(result);
