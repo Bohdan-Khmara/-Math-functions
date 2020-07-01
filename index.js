@@ -1,7 +1,8 @@
 /**
- * Math function. Modulo division. Task 1
+ * Math function. Modulo division. Task 2
  * @type {number}
  */
-let a = 10;
-let b = 3;
-alert(a % b);
+let a = Number(prompt('Введите первое число'));
+let b = Number(prompt('Введите второе число'));
+
+let result = (a % b === 0) ? alert('Делится') : alert('Делится с остатком');
