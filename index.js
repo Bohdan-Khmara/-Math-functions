@@ -1,9 +1,8 @@
 /**
- * Fill an array with random numbers. Task 10
- * @type {*[]}
+ * Modulo function. Task 11
+ * @type {number}
  */
-let arrOfRandom = [];
-for (let i = 0; i < 10; i++) {
-    arrOfRandom.push(Math.round(Math.random() * 100));
-}
-alert(arrOfRandom);
+let a = -2;
+let b = 2;
+let result = Math.abs(a) + Math.abs(b);
+alert(result);
