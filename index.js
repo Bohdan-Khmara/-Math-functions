@@ -1,9 +1,12 @@
 /**
- * Modulo function. Task 12
- * @type {number}
+ * Find arithmetic mean. Task 13
+ * @type {number[]}
  */
-let a = 6;
-let b = 1;
-let c = a - b;
-c = Math.abs(c);
-alert(c);
+let numbers = [12, 15, 20, 25, 59, 79];
+let sum = 0;
+let average = 0;
+for (let i = 0; i < numbers.length; i++) {
+    sum += numbers[i];
+    average = sum / (numbers.length);
+}
+alert(average);
