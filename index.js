@@ -1,4 +1,9 @@
 /**
- * Get a random integer. Task 9
+ * Fill an array with random numbers. Task 10
+ * @type {*[]}
  */
-alert(Math.round(Math.random() * 100));
+let arrOfRandom = [];
+for (let i = 0; i < 10; i++) {
+    arrOfRandom.push(Math.round(Math.random() * 100));
+}
+alert(arrOfRandom);
