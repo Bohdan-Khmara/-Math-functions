@@ -1,8 +1,9 @@
 /**
- * Math function. Modulo division. Task 2
+ * Math function. Exponentiation. Task 3
  * @type {number}
  */
-let a = Number(prompt('Введите первое число'));
-let b = Number(prompt('Введите второе число'));
+let a = 2;
+let b = 10;
 
-let result = (a % b === 0) ? alert('Делится') : alert('Делится с остатком');
+let st = Math.pow(a, b);
+alert(st);
