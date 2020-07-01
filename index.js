@@ -1,7 +1,4 @@
 /**
- * Finding the maximum and minimum number. Task 8
- * @type {number[]}
+ * Get a random integer. Task 9
  */
-let numbers = [4, -2, 5, 19, -130, 0, 10];
-alert(Math.max(...numbers));
-alert(Math.min(...numbers));
+alert(Math.round(Math.random() * 100));
