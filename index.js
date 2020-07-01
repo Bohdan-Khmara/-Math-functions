@@ -1,10 +1,10 @@
 /**
- * Math function. Take the square root + round. Task 6
+ * Math function. Take the square root. Task 7
  * @type {number}
  */
-let number = 379;
+let number = 587;
+let obj = {};
 let squareRoot = Math.sqrt(number);
-
-alert(Math.round(squareRoot));
-alert(squareRoot.toFixed(1));
-alert(squareRoot.toFixed(2));
+obj.floor = Math.floor(squareRoot);
+obj.ceil = Math.ceil(squareRoot);
+alert(obj);
