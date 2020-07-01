@@ -1,18 +1,10 @@
 /**
- * Math function. Take the square root. Task 5
- * @type {number[]}
+ * Math function. Take the square root + round. Task 6
+ * @type {number}
  */
-let array = [4, 2, 5, 19, 13, 0, 10];
-let inCube = [];
-let sumInCube = 0;
-let sqrtInCube = 0;
+let number = 379;
+let squareRoot = Math.sqrt(number);
 
-for (let i = 0; i < array.length; i++) {
-    inCube.push(Math.pow(array[i], 3));
-}
-
-for (let j = 0; j < inCube.length; j++) {
-    sumInCube += inCube[j];
-    sqrtInCube = Math.sqrt(sumInCube);
-}
-console.log(sqrtInCube);
+alert(Math.round(squareRoot));
+alert(squareRoot.toFixed(1));
+alert(squareRoot.toFixed(2));
