@@ -1,8 +1,9 @@
 /**
- * Modulo function. Task 11
+ * Modulo function. Task 12
  * @type {number}
  */
-let a = -2;
-let b = 2;
-let result = Math.abs(a) + Math.abs(b);
-alert(result);
+let a = 6;
+let b = 1;
+let c = a - b;
+c = Math.abs(c);
+alert(c);
