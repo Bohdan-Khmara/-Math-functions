@@ -1,9 +1,6 @@
 /**
- * Math function. Exponentiation. Task 3
+ * Math function. Take the square root. Task 4
  * @type {number}
  */
-let a = 2;
-let b = 10;
-
-let st = Math.pow(a, b);
-alert(st);
+let result = Math.sqrt(245);
+alert(result);
